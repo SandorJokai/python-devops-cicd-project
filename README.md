@@ -5,7 +5,7 @@ This repo contains the code for the CI/CD section of my Python for Devops course
 
 - [x] Implement the project (code files)
 - [x] Add a simple GHA workflow and make sure it runs until completion
-- [] Add linting (ruff) and format (black) checks
+- [x] Add linting (ruff) and format (black) checks
 - [] Add typing and security checks
 - [] Add test automation
 - [] Build our Python project
