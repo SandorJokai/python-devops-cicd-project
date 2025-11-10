@@ -7,7 +7,6 @@ This repo contains the code for the CI/CD section of my Python for Devops course
 - [x] Add a simple GHA workflow and make sure it runs until completion
 - [x] Add linting (ruff) and format (black) checks
 - [x] Add typing (mypy) and security (bandit) checks
-- [] Add typing and security checks
 - [] Add test automation
 - [] Build our Python project
 - [] Publish the project to both TestPypi and PyPi when a new tag is pushed
