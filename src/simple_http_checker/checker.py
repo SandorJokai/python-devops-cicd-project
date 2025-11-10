@@ -5,6 +5,9 @@ from typing import Collection
 
 logger = logging.getLogger(__name__)
 
+## Uncomment this line below will raise a security check error running by bandit
+## which also prevent the ci pipeline running through
+#API_TOKEN = "GHP_ThisLooksLikeAGithubPersonalAccessToken"
 
 def check_urls(
     urls: Collection[str], timeout: int = 5
