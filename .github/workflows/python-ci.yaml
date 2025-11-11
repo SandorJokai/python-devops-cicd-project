@@ -54,7 +54,7 @@ jobs:
         run: |
           pytest
   release:
-    runs: ubuntu-latest
+    runs-on: ubuntu-latest
     needs:
       - tests
       - lint-static-checks
