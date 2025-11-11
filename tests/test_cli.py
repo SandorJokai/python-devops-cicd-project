@@ -3,6 +3,7 @@ from pytest_mock import MockerFixture
 
 from simple_http_checker.cli import main
 
+
 def test_no_urls():
     runner = CliRunner()
     result = runner.invoke(main, [])
@@ -13,7 +14,9 @@ def test_no_urls():
 
 def test_main_single_url_success(mocker: MockerFixture):
     url = "https://www.example.com"
-    mock_check = mocker.patch("simple_http_checker.cli.check_urls")
+    mock_check = mocker.patch(
+        "simple_http_checker.cli.check_urls"
+    )
     mock_check.return_value = {url: "200 OK"}
 
     runner = CliRunner()
@@ -29,7 +32,9 @@ def test_main_single_url_success(mocker: MockerFixture):
 
 def test_main_timeout_option(mocker: MockerFixture):
     url = "https://www.timeout.com"
-    mock_check = mocker.patch("simple_http_checker.cli.check_urls")
+    mock_check = mocker.patch(
+        "simple_http_checker.cli.check_urls"
+    )
     mock_check.return_value = {url: "TIMEOUT"}
 
     runner = CliRunner()
