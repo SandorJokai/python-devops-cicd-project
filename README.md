@@ -18,8 +18,8 @@ https://docs.astral.sh/ruff/configuration/
 https://mypy.readthedocs.io/en/stable/config_file.html#using-a-pyproject-toml-file
 https://bandit.readthedocs.io/en/latest/config.html
 
-## Setup a virtual envitonment for python in my case
+## Setup a virtual envitonment for python
 ```bash
-python3.9 -m venv --without-pip .venv
+python -m venv .venv
 source .venv/bin/activate
 ```
