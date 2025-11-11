@@ -33,7 +33,7 @@ def main(urls, timeout, verbose):
 
     if not urls:
         logger.warning("No URLs provided to check.")
-        click.echo("Usage check-urls <URL1> <URL2> ...")
+        click.echo("Usage: check-urls <URL1> <URL2> ...")
         return
     logger.info(f"Strating check for {len(urls)} URLs.")
 
