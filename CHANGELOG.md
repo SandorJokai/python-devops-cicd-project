@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.2 (2025-11-13)
+
+### Bug Fixes
+
+- **python-cicd**: Trailing / added in url
+  ([`afa307a`](https://github.com/SandorJokai/python-devops-cicd-project/commit/afa307af1e0b1daa3edb8c4a3efd586f3cfaaccc))
+
+
 ## v1.1.1 (2025-11-13)
 
 ### Bug Fixes
