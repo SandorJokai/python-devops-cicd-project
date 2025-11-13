@@ -54,7 +54,7 @@ upload_to_release = true
 hvcs = "github"
 commit_message = "chore(release): {version} [skip ci]"
 
-[tool.semantic_release.branches:main]
+[tool.semantic_release.branches.main]
 match = "main"
 prerelease = false
 
