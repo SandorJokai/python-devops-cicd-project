@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.1 (2025-11-13)
+
+### Bug Fixes
+
+- **python-cicd**: Add correct environment
+  ([`1fc6f61`](https://github.com/SandorJokai/python-devops-cicd-project/commit/1fc6f61d9d2b2a34fcdf665fde6584fa39909caa))
+
+
 ## v1.1.0 (2025-11-13)
 
 ### Continuous Integration
