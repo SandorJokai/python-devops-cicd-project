@@ -41,7 +41,7 @@ jobs:
       - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
-          name: simple-http-checker-${{ github.sha }}
+          name: simple-http-checker-2025-${{ github.sha }}
           path: dist/
       - name: Publish to TestPyPI
         uses: pypa/gh-action-pypi-publish@release/v1
