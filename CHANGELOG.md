@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.5 (2025-11-13)
+
+### Bug Fixes
+
+- **python-cicd**: Projectname fixed in python-ci.yaml too!
+  ([`3f248b7`](https://github.com/SandorJokai/python-devops-cicd-project/commit/3f248b709f6d5e2cf160c7883f6ec3b11bf537df))
+
+
 ## v1.1.4 (2025-11-13)
 
 ### Bug Fixes
